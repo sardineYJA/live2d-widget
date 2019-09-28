@@ -7,7 +7,7 @@
 <!-- 看板娘哦 -->
 <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
-<script src="https://cdn.jsdelivr.net/gh/sardineYJA/live2d-widget@0.6.0/autoload.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sardineYJA/live2d-widget@0.7.0/autoload.js"></script>
 ```
 
 ## 看板娘位置修改
@@ -25,15 +25,15 @@ waifu.css中的#waifu
 修改后内容后，需要改变 : autoload.js 以及 引用的 html
 ```js
 //注意：live2d_path参数应使用绝对路径
-const live2d_path = "https://cdn.jsdelivr.net/gh/sardineYJA/live2d-widget@0.6.0/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/sardineYJA/live2d-widget@0.7.0/";
 ```
 ```xml
 <!-- 看板娘哦 -->
 ...
-<script src="https://cdn.jsdelivr.net/gh/sardineYJA/live2d-widget@0.6.0/autoload.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sardineYJA/live2d-widget@0.7.0/autoload.js"></script>
 ```
 
-在`.../live2d-widget@0.6.0/` 中修改成新的版本，在仓库中点击releases，并填写版本号如：v0.6.0
+在`.../live2d-widget@0.7.0/` 中修改成新的版本，在仓库中点击releases，并填写版本号如：v0.7.0
 
 如果直接写 `https://cdn.jsdelivr.net/gh/sardineYJA/live2d-widget/` ，不写版本号，不知为何老是默认调用以往的版本，修改不生效，所以使用这样的方法。
 
